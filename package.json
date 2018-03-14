@@ -1,0 +1,23 @@
+{
+  "name": "quiz-challenge",
+  "version": "1.0.0",
+  "description": "Make an object-oriented quiz game using the following user stories:",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCRcodes/quiz-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MCRcodes/quiz-challenge/issues"
+  },
+  "homepage": "https://github.com/MCRcodes/quiz-challenge#readme",
+  "devDependencies": {
+    "jest": "^22.4.2"
+  }
+}
