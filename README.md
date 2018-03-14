@@ -7,7 +7,7 @@ Make an object-oriented quiz game using the following user stories:
 ```
 As a quiz maker
 So that I can challenge users
-I want to be able to create questions with answers
+I want to be able to create a question with an answer
 ```
 
 ```
