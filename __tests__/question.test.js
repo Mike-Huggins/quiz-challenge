@@ -2,12 +2,19 @@ const Question = require('../src/question');
 
 describe('constructor', () => {
   it('has the given challenge property', () => {
-    const question1 = new Question('foo')
-    expect(question1.challenge).toEqual('foo');
+    const question = new Question('foo')
+    expect(question.challenge).toEqual('foo');
   });
 
   it('has the given answer property', () => {
-    const question1 = new Question(jest.fn(), 'bar');
-    expect(question1.answer).toEqual('bar');
+    const question = new Question(jest.fn(), 'bar');
+    expect(question.answer).toEqual('bar');
+  });
+});
+
+describe('verify', () => {
+  it('returns true if the answer matches', () => {
+    const question = new Question(jest.fn(), 'bar');
+    expect(question.verify('bar')).toBe(true);
   });
 });
