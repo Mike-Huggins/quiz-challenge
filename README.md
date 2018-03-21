@@ -6,7 +6,7 @@ There's no right or wrong way to solve the problem, the main challenge is to mak
 
 To get started **fork** this repository and clone the fork to your computer.
 
-Remember to write your tests first, and commit your work regularly. Once you've finished, make a pull request back to this repo for us to give you feedback!
+Remember to practice domain modelling, write your tests first, experiment in the Node CLI and commit your work regularly. Once you've finished, make a pull request back to this repo for us to give you feedback!
 
 
 
