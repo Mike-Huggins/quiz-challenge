@@ -15,13 +15,13 @@ Remember to practice domain modelling, write your tests first, experiment in the
 ```
 As a quiz maker
 So that I can challenge users
-I want to be able to create a question with an answer
+I want to be able to create a question with a challenge and an answer
 ```
 
 ```
 As a player
 So I know if my guess is correct
-I want to be able to verify my answer to a question
+I want to be able to verify my guess to a question
 ```
 
 ```
