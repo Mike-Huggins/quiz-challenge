@@ -6,11 +6,8 @@ const q2 = new Question('What is the capital of Djibouti?', 'Djibouti');
 
 const quiz = new Quiz('Geography Quiz', [q1, q2]);
 
-// console.log(quiz.name);
-
-// console.log(quiz.questions);
-
-// console.log(quiz.readQuestion());
-
+console.log(quiz.readQuestion());
 console.log('Berlin', quiz.answerQuestion('Berlin'));
-console.log('Paris', quiz.answerQuestion('Paris'));
+
+console.log(quiz.readQuestion());
+console.log('Djibouti', quiz.answerQuestion('Djibouti'));
