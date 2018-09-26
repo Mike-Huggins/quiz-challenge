@@ -1,19 +1,27 @@
 # Quiz Challenge
 
-Make an object-oriented quiz game using the following user stories:
+Your challenge is to make an object-oriented quiz game using TDD and the following user stories.
+
+There's no right or wrong way to solve the problem, the main challenge is to make a system by yourself without a walkthrough (although you should definitely not be shy about asking questions to your cohort etc!)
+
+To get started **fork** this repository and clone the fork to your computer.
+
+Remember to practice domain modelling, write your tests first, experiment in the Node CLI and commit your work regularly. Once you've finished, make a pull request back to this repo for us to give you feedback!
+
+
 
 ## User Stories
 
 ```
 As a quiz maker
 So that I can challenge users
-I want to be able to create a question with an answer
+I want to be able to create a question with a challenge and an answer
 ```
 
 ```
 As a player
 So I know if my guess is correct
-I want to be able to verify my answer to a question
+I want to be able to verify my guess to a question
 ```
 
 ```
