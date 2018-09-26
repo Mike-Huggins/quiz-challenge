@@ -5,3 +5,11 @@ Question
 
 - methods
   - checkAnswer
+
+Quiz
+- properties
+  - name
+  - questions
+- methods
+  - readQuestion
+  - answerQuestion

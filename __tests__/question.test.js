@@ -1,6 +1,6 @@
 const Question = require('../src/question');
 
-describe('constructor', () => {
+describe('Question', () => {
   it('has the given challenge property', () => {
     const question = new Question('What is 2 + 2?', '4');
     expect(question.challenge).toEqual('What is 2 + 2?');
