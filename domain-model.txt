@@ -1,0 +1,7 @@
+Question
+- properties
+  - challenge
+  - answer
+
+- methods
+  - checkAnswer

@@ -1,0 +1,29 @@
+{
+  "name": "quiz-challenge",
+  "version": "1.0.0",
+  "description": "Your challenge is to make an object-oriented quiz game using TDD and the following user stories.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MCRcodes/quiz-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MCRcodes/quiz-challenge/issues"
+  },
+  "homepage": "https://github.com/MCRcodes/quiz-challenge#readme",
+  "devDependencies": {
+    "babel-eslint": "^8.2.5",
+    "eslint": "^4.19.1",
+    "eslint-config-mcr-codes": "^1.2.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-import": "^2.12.0",
+    "eslint-plugin-react": "^7.9.1",
+    "jest": "^23.6.0"
+  }
+}
