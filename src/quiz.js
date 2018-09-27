@@ -2,6 +2,7 @@ function Quiz(name, questions) {
   this.name = name;
   this.questions = questions;
   this.__questionIndex = 0;
+  this.score = 0;
 }
 
 Quiz.prototype = {
@@ -10,6 +11,9 @@ Quiz.prototype = {
   },
   answerQuestion(guess) {
     const result = this.questions[this.__questionIndex].checkAnswer(guess);
+    if (result) {
+      this.score += 1;
+    }
     this.__questionIndex += 1;
     return result;
   },

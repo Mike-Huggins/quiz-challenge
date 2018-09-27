@@ -28,6 +28,10 @@ describe('Quiz', () => {
   it('has a currentQuestion property of 1', () => {
     expect(quiz.currentQuestion).toEqual(1);
   });
+
+  it('has a starting score of 0', () => {
+    expect(quiz.score).toEqual(0);
+  });
 });
 
 describe('readQuestion', () => {
@@ -69,5 +73,17 @@ describe('answerQuestion', () => {
 
     expect(q2.checkAnswer).toHaveBeenCalledWith(guess);
     expect(result).toEqual(mockQ2Result);
+  });
+
+  it('increases the score if the answer is right', () => {
+    q1.checkAnswer.mockReturnValue(true);
+    quiz.answerQuestion(jest.fn());
+    expect(quiz.score).toEqual(1);
+  });
+
+  it('does not increase the score if the answer is wrong', () => {
+    q1.checkAnswer.mockReturnValue(false);
+    quiz.answerQuestion(jest.fn());
+    expect(quiz.score).toEqual(0);
   });
 });

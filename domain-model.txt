@@ -11,6 +11,7 @@ Quiz
   - name
   - questions
   - currentQuestion
+  - score
 - methods
   - readQuestion
   - answerQuestion
